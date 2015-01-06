@@ -2,11 +2,11 @@
      windowHeight = window.innerHeight;
  var camera, renderer, scene;
 
-head.load("js/three.min.js", "js/LeiaCore-0.0.16.min.js", function() {
+ head.ready(function() {
      console.log("onload");
      Init();
      animate();
-});
+ });
 
 
 
